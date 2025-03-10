@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #a0711e;
+  --color-background: #fff;
+  --color-text: #090000;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
