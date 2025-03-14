@@ -13,4 +13,7 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
+  server: {
+    allowedHosts: ['project-3-vds-production.up.railway.app'],
+  },
 });
